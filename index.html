@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    {{mars_data.title}}
+    <p>
+    {{mars_data.paragraph}}
+    </p><p>
+    {{mars_data.weather}}
+    </p>{{mars_data.facts}}<p>
+    <p>{{mars_data.hemisphere_image}}</p>
+    <img src="{{mars_data.image_url}}"/>
+    </p>
+    <form action="/scrape"> 
+    <input type="submit" value="Scrape"></input>
+    </form>
+</body>
+</html>
